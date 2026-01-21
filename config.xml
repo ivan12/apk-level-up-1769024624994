@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.apkbuilder.levelup" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>Level up</name>
+    <description>Generated APK from https://ivanamorim.com.br/levelup/</description>
+    <author email="support@apkbuilder.com" href="https://apkbuilder.com">APK Builder</author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="res/android/icon.png" density="ldpi" />
+        <icon src="res/android/icon.png" density="mdpi" />
+        <icon src="res/android/icon.png" density="hdpi" />
+        <icon src="res/android/icon.png" density="xhdpi" />
+    </platform>
+</widget>
